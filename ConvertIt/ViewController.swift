@@ -33,6 +33,7 @@ class ViewController: UIViewController {
                         Formula(conversionString: "celsius to fahrenheit", formula: {($0 * (9/5)) + 32}),
                         Formula(conversionString: "quarts to liters", formula: {$0 / 1.05669}),
                         Formula(conversionString: "liters to quarts", formula: {$0 * 1.05669})]
+    
     var fromUnits = ""
     var toUnits = ""
     var conversionString = ""
